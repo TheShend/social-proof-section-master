@@ -1,0 +1,289 @@
+/* Mobile Design */
+body{
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.desktop{
+    display: none;
+}
+.mobiletop{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+
+.title{
+    
+    margin: 18% 2% 5%;
+    font-weight: bold;
+}
+
+.htitle{
+    font-size: 10vw;
+    color: hsl(300, 43%, 22%);
+    font-weight: 900;
+    margin-bottom: 0%;
+    
+    
+}
+
+.ptitle{
+    
+    
+    line-height: 200%;
+    color: hsl(303, 10%, 53%);
+    font-size: 3vw;
+    
+}
+
+
+.starz{
+    align-content: center;
+    text-align: center;
+    margin: 5% 3% 5%;
+    
+}
+.stars{
+    
+    background-color:  hsl(300, 24%, 96%);
+    width: 100%;
+    padding: 5px 1% 5px;
+
+    border-radius: 15px;
+    margin: 2% auto;
+    font-size: 2vw;
+    height:auto;
+    color: hsl(300, 43%, 22%);
+    
+    
+}
+
+.pstars{
+    text-align: center;
+    margin: 3% auto 3%;
+    
+    font-size: 4vw;
+    
+}
+
+
+.divpbox{
+    justify-content: center;
+    margin-bottom: 20%;
+    width: 100%;
+    
+    
+}
+.pbox{
+    
+    background-color: hsl(300, 43%, 22%);   
+    border-radius: 15px;
+    padding: 8% 5% 5%;
+    margin: 0% 3% 3%;
+
+}
+
+.avatar{
+    height: 10vw;
+    border-radius: 50%;
+    margin-right: 3vw;
+    float: left;
+}
+.ph2{
+    text-align: left;
+    color: white;
+    font-size: 2vw;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+.ph3{
+    text-align: left;
+    color: hsl(333, 60%, 67%);
+    font-size: 2vw;
+    font-weight: 100;
+    margin-top: 1%;
+    
+}
+.pp{
+    text-align: left;
+    color: white;
+    padding-top: 5vw;
+    font-weight: 100;
+    font-size: 3vw ;
+
+}
+
+
+.mobilebottom{
+ position: absolute;
+ bottom: 0%;
+ right: 0%;
+}
+
+.deskbottom{
+    display: none;
+}
+
+
+
+@media only screen and (min-width:1080px){
+
+
+body{
+    margin: 0%;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+
+.desktop{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+.mobiletop{
+
+    display: none;
+}
+
+.title{
+    text-align: left;
+    margin: 8% 61% 5% 10%;
+    font-weight: bold;
+}
+
+.htitle{
+    word-spacing: -0.1rem;
+    line-height: 3.2rem;
+    font-size: 4vw;
+    color: hsl(300, 43%, 22%);
+    letter-spacing: -0.2rem;
+    font-weight: 900;
+    
+    
+}
+
+.ptitle{
+    margin-right: -15%;
+    line-height: 200%;
+    font-size: 1vw;
+    color: hsl(303, 10%, 53%);
+    
+}
+
+.starz{
+    position: absolute;
+    top: 7%;
+    right: 15%;
+    margin-top: 5%;
+    
+}
+.stars{
+    
+    padding: 10px;
+    background-color:  hsl(300, 24%, 96%);
+    width: 400px;
+    text-align: left;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 2%;
+    font-size: 9px;
+    height: 40px;
+    color: hsl(300, 43%, 22%);
+    
+    
+}
+
+.pstars{
+    margin: 3% 10% 3% 3%;
+    letter-spacing: 5px;
+    font-size: 13px;
+    
+}
+
+.s2{
+    position: relative;
+    right: -10%;
+}
+
+.s3{
+    position: relative;
+    right: -20%;
+}
+
+.divpbox{
+    display: flexbox;
+    justify-content: center;
+    margin: 0% auto 0%;
+    display: flex;
+    width: 100%;
+    
+}
+.pbox{
+    background-color: hsl(300, 43%, 22%);   
+    width: 280px;
+    padding: 40px 30px 20px;
+    margin: 15px 15px 60px;
+    border-radius: 15px;
+    
+}
+
+.avatar{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 25px;
+    float: left;
+}
+.ph2{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+.ph3{
+    color: hsl(333, 60%, 67%);
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 1%;
+    
+}
+.pp{
+
+    color: white;
+    font-weight: 100;
+    font-size: 12px ;
+    line-height: 20px;
+
+}
+
+.pb3{
+    position: relative;
+    bottom: -30px;
+    
+    
+}
+
+.pb2{
+    position: relative;
+    bottom: -15px;
+}
+
+.mobilebottom{
+    display: none;
+}
+.deskbottom{
+ display: block;
+ position: absolute;   
+ right: 0;
+ bottom: 0;
+
+}
+
+}
